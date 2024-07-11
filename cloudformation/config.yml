@@ -1,0 +1,5 @@
+template-file-path:
+  - ./cloudformation/s3_bucket.yml
+tags:
+  environment: 'dev'
+  application: 'tech-challenge-part-II'
