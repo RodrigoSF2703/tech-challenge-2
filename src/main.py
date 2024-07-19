@@ -19,7 +19,7 @@ def download_and_extract():
         df = Sanitize.clean_df(df)
         df["data_pregao"] = current_date
 
-        df.to_parquet(f"data/b3_pregao_{current_date}.parquet")
+        df.to_parquet(f"data/b3_pregao.parquet")
     else:
         print("Erro ao baixar o arquivo. Verifique a URL ou a conexão.")
         raise SystemExit("Script encerrado devido a erro na URL")
